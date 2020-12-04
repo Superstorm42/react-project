@@ -1,0 +1,19 @@
+export const getAllApartments = '/api/apartments';
+export const getOneApartment = '/api/apartments/';
+export const deleteOneApartment = '/api/apartments/';
+export const editOneApartment = '/api/apartments/';
+export const createOneApartment = '/api/apartments';
+
+export const checkEmailExist = '/api/users/email/';
+export const userSignUp = '/api/auth/signup';
+export const userSignIn = '/api/auth/signin';
+export const userSignOut = '/api/auth/signout';
+export const getOneUser = '/api/users/';
+export const getAllUsers = '/api/users';
+export const createOneUser = '/api/users';
+export const updateUser = '/api/users/';
+export const deleteOneUser = '/api/users/';
+export const userAuth = '/api/auth';
+export const changePassword = '/api/auth/';
+export const recoverPassword = '/api/auth/recover';
+export const resetPassword = '/api/auth/';

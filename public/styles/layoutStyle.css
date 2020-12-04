@@ -1,0 +1,117 @@
+/* All Laout related css */
+.saCHomeMainContent {
+	overflow: hidden;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	padding-left: 10%;
+	padding-right: 10%;
+	background: #e9ebf1;
+}
+.saCProfLeft {
+	width: 100%;
+	float: left;
+	background: white;
+	padding: 10px;
+	border-left: 2px solid #3070d1;
+	border-radius: 5px;
+}
+.saPMenuOpenClose {
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	font-size: 25px;
+}
+.saCProfRight {
+	width: 100%;
+	float: right;
+	background: white;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+@media only screen and (max-width: 900px) {
+	.saCHomeMainContent {
+		margin: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+@media only screen and (max-width: 700px) {
+	/* .saCHomeMainContent {
+		padding: 15px;
+		padding-left: 10px;
+		padding-right: 10px;
+	} */
+	.saCHomeMainContent {
+		width: 100%;
+		padding: 10px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.saCHomeMainContent {
+		width: 100%;
+		padding: 10px;
+	}
+}
+.saSidebar {
+	background: white;
+	width: 100%;
+	width: 200px;
+	text-align: left;
+	float: left;
+}
+.saSidebar ul {
+	margin: 0px;
+	padding: 10px;
+	list-style: none;
+}
+.saSidebar ul li {
+	text-decoration: none;
+	margin: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: black;
+	border: 1px solid white;
+	transition: 0.1s all;
+}
+.saActiveLink {
+	background: #f1f1f1;
+	border: 1px solid #e2e2e2 !important;
+}
+.saSidebar ul li:hover {
+	background: #f1f1f1;
+	border: 1px solid #e2e2e2;
+	padding-left: 10px;
+}
+
+.saSidebar ul a:hover {
+	color: green;
+}
+.saSidebar ul a {
+	text-decoration: none;
+	color: black;
+}
+.active {
+	border: 1px solid blacl;
+}
+.saPMenuOpenClose {
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	font-size: 25px;
+}
+.dropdown-menu {
+	left: -100px !important;
+	min-width: 150px !important;
+}
+.dropdown-item:hover {
+	background-color: whitesmoke;
+}
+#basic-nav-dropdown:after {
+	content: none;
+}
+.headerAvatar {
+	height: 32px;
+	border-radius: 16px;
+}
